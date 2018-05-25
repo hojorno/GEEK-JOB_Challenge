@@ -28,8 +28,8 @@ public class insuu extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            insuu test = new insuu();
-            test.kisuu(123456789, out);
+            
+            kisuu(123456789, out);
  
         }
     }
